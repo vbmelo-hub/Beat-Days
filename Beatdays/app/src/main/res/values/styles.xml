@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Beatdays.Menu.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/menu_primary_fill</item>
+        <item name="android:textColor">@color/menu_primary_text</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">11sp</item>
+        <item name="autoSizeMaxTextSize">14sp</item>
+        <item name="autoSizeStepGranularity">1sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="iconTint">@color/menu_ink</item>
+        <item name="iconSize">18dp</item>
+        <item name="iconPadding">8dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+    <style name="Widget.Beatdays.Menu.Secondary" parent="Widget.Beatdays.Menu.Primary">
+        <item name="backgroundTint">@color/menu_secondary_fill</item>
+        <item name="android:textColor">@color/menu_secondary_text</item>
+        <item name="strokeColor">@color/menu_line</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="iconTint">@color/menu_honey</item>
+    </style>
+    <style name="Widget.Beatdays.Menu.Quiet" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/menu_quiet_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconTint">@color/menu_honey</item>
+        <item name="iconSize">16dp</item>
+        <item name="iconPadding">6dp</item>
+    </style>
+    <style name="TextAppearance.Beatdays.Menu.Label" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/menu_honey</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.12</item>
+    </style>
+    <style name="TextAppearance.Beatdays.Menu.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/menu_muted</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="TextAppearance.Beatdays.Menu.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/menu_text</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+</resources>

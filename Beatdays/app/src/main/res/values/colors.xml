@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cafe_fundo">#211712</color>
+    <color name="cafe_creme">#FFF0D8</color>
+    <color name="cafe_dourado">#FFD088</color>
+    <color name="menu_surface">#EE30231D</color>
+    <color name="menu_surface_soft">#493329</color>
+    <color name="menu_line">#73513C</color>
+    <color name="menu_text">#FFF2DD</color>
+    <color name="menu_muted">#D7C2A9</color>
+    <color name="menu_honey">#F4C67B</color>
+    <color name="menu_ink">#2A1C14</color>
+    <color name="menu_sage">#B9D5B7</color>
+    <color name="menu_coral">#E6AA98</color>
+</resources>

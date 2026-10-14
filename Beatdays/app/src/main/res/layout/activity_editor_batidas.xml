@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tela_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:padding="20dp">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/menu_scrollbar_cafe"
+        android:fadeScrollbars="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:background="@drawable/menu_card_cafe">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/editor_batidas"
+                android:textSize="22sp"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textColor="@color/cafe_creme" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                android:text="@string/menu_editor_subtitulo"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp" />
+            <TextView
+                android:id="@+id/tv_musica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_fase"
+                android:textSize="16sp"
+                android:textColor="@color/cafe_dourado" />
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Beatdays.Menu.Secondary"
+                android:id="@+id/btn_iniciar_musica"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginVertical="10dp"
+                android:text="@string/iniciar_musica" />
+            <TextView
+                android:id="@+id/tv_quantidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/batidas_iniciais"
+                android:textColor="@color/cafe_creme" />
+            <TextView
+                android:id="@+id/tv_ultima_batida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ultima_vazia"
+                android:textColor="@color/cafe_creme" />
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Beatdays.Menu.Primary"
+                android:id="@+id/btn_marcar"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/marcar"
+                android:textSize="24sp"
+                android:enabled="false" />
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Beatdays.Menu.Secondary"
+                android:id="@+id/btn_desfazer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desfazer"
+                android:enabled="false" />
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Beatdays.Menu.Secondary"
+                android:id="@+id/btn_reiniciar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reiniciar" />
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Beatdays.Menu.Secondary"
+                android:id="@+id/btn_gerar_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gerar_chart" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/menu_card_cafe"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/menu_scrollbar_cafe"
+        android:fadeScrollbars="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                android:text="@string/menu_chart_label" />
+            <TextView
+                android:id="@+id/tv_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textIsSelectable="true"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:textColor="@color/cafe_creme"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

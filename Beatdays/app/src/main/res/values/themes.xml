@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Beatdays" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/cafe_dourado</item>
+        <item name="materialButtonStyle">@style/Widget.Beatdays.Menu.Primary</item>
+        <item name="colorOnPrimary">@color/cafe_fundo</item>
+        <item name="android:windowBackground">@color/cafe_fundo</item>
+    </style>
+    <style name="Theme.Beatdays" parent="Base.Theme.Beatdays" />
+</resources>

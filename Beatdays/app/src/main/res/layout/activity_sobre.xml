@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tela_creditos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_voltar_sobre"
+        style="@style/Widget.Beatdays.Menu.Secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/menu_inicio"
+        app:icon="@drawable/ic_back_cafe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/sobre_titulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/sobre"
+        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Title"
+        app:layout_constraintStart_toEndOf="@id/btn_voltar_sobre"
+        app:layout_constraintTop_toTopOf="@id/btn_voltar_sobre"
+        app:layout_constraintBottom_toBottomOf="@id/btn_voltar_sobre"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <ScrollView
+        android:id="@+id/sobre_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:fillViewport="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_voltar_sobre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scrollbars="vertical"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/menu_scrollbar_cafe"
+        android:fadeScrollbars="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                android:text="@string/menu_creditos_subtitulo"
+                android:layout_marginBottom="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_project" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_project"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_art" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_art"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_audio" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_audio"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_references" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_references"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_libraries" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_libraries"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:background="@drawable/menu_card_cafe">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Label"
+                        android:text="@string/credits_title_provenance" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                        android:text="@string/credits_provenance"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Beatdays.Menu.Body"
+                android:text="@string/credito_musica"
+                android:layout_marginTop="8dp"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

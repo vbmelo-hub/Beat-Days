@@ -1,0 +1,21 @@
+# Android Studio
+.idea/
+*.iml
+local.properties
+captures/
+# Build and generated artifacts
+.gradle/
+**/build/
+.externalNativeBuild/
+.cxx/
+.tools/
+dist/
+__pycache__/
+*.pyc
+# Private signing material
+signing/
+*.jks
+*.keystore
+# Operating system files
+.DS_Store
+Thumbs.db

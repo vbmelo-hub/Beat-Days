@@ -1,0 +1,506 @@
+{
+  "recurso_usado": "R.raw.cafe_rush_final",
+  "bpm": 120,
+  "duracao_ms": 80000,
+  "taxa_hz": 44100,
+  "canais": 2,
+  "pico": 0.4914029538631439,
+  "rms": 0.050992581993341446,
+  "sha256": "44df7eb58eda0e189fe8611716df1132cb201f0658b142be6359f2c785f9dbd2",
+  "secoes": [
+    {
+      "inicio_ms": 0,
+      "fim_ms": 4000,
+      "nome": "abertura"
+    },
+    {
+      "inicio_ms": 4000,
+      "fim_ms": 12000,
+      "nome": "demonstração"
+    },
+    {
+      "inicio_ms": 12000,
+      "fim_ms": 20000,
+      "nome": "treino"
+    },
+    {
+      "inicio_ms": 20000,
+      "fim_ms": 35000,
+      "nome": "tema A"
+    },
+    {
+      "inicio_ms": 35000,
+      "fim_ms": 49500,
+      "nome": "tema B"
+    },
+    {
+      "inicio_ms": 49500,
+      "fim_ms": 52000,
+      "nome": "respiro"
+    },
+    {
+      "inicio_ms": 52000,
+      "fim_ms": 64000,
+      "nome": "retomada"
+    },
+    {
+      "inicio_ms": 64000,
+      "fim_ms": 69500,
+      "nome": "trios rápidos"
+    },
+    {
+      "inicio_ms": 69500,
+      "fim_ms": 71500,
+      "nome": "suspensão"
+    },
+    {
+      "inicio_ms": 71500,
+      "fim_ms": 75000,
+      "nome": "último pedido"
+    },
+    {
+      "inicio_ms": 75000,
+      "fim_ms": 80000,
+      "nome": "fechamento"
+    }
+  ],
+  "eventos": [
+    {
+      "id": 0,
+      "pedido": 0,
+      "quantidade": 1,
+      "tipo": "MIKA",
+      "aviso": 4000,
+      "captura": 5000,
+      "lancamento": 4250,
+      "demonstracao": true
+    },
+    {
+      "id": 1,
+      "pedido": 1,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 8000,
+      "captura": 9500,
+      "lancamento": 8750,
+      "demonstracao": true
+    },
+    {
+      "id": 2,
+      "pedido": 1,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 8500,
+      "captura": 10000,
+      "lancamento": 9250,
+      "demonstracao": true
+    },
+    {
+      "id": 3,
+      "pedido": 1,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 9000,
+      "captura": 10500,
+      "lancamento": 9750,
+      "demonstracao": true
+    },
+    {
+      "id": 4,
+      "pedido": 2,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 12000,
+      "captura": 13000,
+      "lancamento": 12250,
+      "demonstracao": false
+    },
+    {
+      "id": 5,
+      "pedido": 2,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 12500,
+      "captura": 13500,
+      "lancamento": 12750,
+      "demonstracao": false
+    },
+    {
+      "id": 6,
+      "pedido": 3,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 16000,
+      "captura": 17500,
+      "lancamento": 16750,
+      "demonstracao": false
+    },
+    {
+      "id": 7,
+      "pedido": 3,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 16500,
+      "captura": 18000,
+      "lancamento": 17250,
+      "demonstracao": false
+    },
+    {
+      "id": 8,
+      "pedido": 3,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 17000,
+      "captura": 18500,
+      "lancamento": 17750,
+      "demonstracao": false
+    },
+    {
+      "id": 9,
+      "pedido": 4,
+      "quantidade": 1,
+      "tipo": "MIKA",
+      "aviso": 20000,
+      "captura": 21000,
+      "lancamento": 20250,
+      "demonstracao": false
+    },
+    {
+      "id": 10,
+      "pedido": 5,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 24000,
+      "captura": 25000,
+      "lancamento": 24250,
+      "demonstracao": false
+    },
+    {
+      "id": 11,
+      "pedido": 5,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 24500,
+      "captura": 25500,
+      "lancamento": 24750,
+      "demonstracao": false
+    },
+    {
+      "id": 12,
+      "pedido": 6,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 28000,
+      "captura": 29500,
+      "lancamento": 28750,
+      "demonstracao": false
+    },
+    {
+      "id": 13,
+      "pedido": 6,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 28500,
+      "captura": 30000,
+      "lancamento": 29250,
+      "demonstracao": false
+    },
+    {
+      "id": 14,
+      "pedido": 6,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 29000,
+      "captura": 30500,
+      "lancamento": 29750,
+      "demonstracao": false
+    },
+    {
+      "id": 15,
+      "pedido": 7,
+      "quantidade": 1,
+      "tipo": "MIKA",
+      "aviso": 32000,
+      "captura": 33000,
+      "lancamento": 32250,
+      "demonstracao": false
+    },
+    {
+      "id": 16,
+      "pedido": 8,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 35000,
+      "captura": 36500,
+      "lancamento": 35750,
+      "demonstracao": false
+    },
+    {
+      "id": 17,
+      "pedido": 8,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 35500,
+      "captura": 37000,
+      "lancamento": 36250,
+      "demonstracao": false
+    },
+    {
+      "id": 18,
+      "pedido": 8,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 36000,
+      "captura": 37500,
+      "lancamento": 36750,
+      "demonstracao": false
+    },
+    {
+      "id": 19,
+      "pedido": 9,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 39000,
+      "captura": 40000,
+      "lancamento": 39250,
+      "demonstracao": false
+    },
+    {
+      "id": 20,
+      "pedido": 9,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 39500,
+      "captura": 40500,
+      "lancamento": 39750,
+      "demonstracao": false
+    },
+    {
+      "id": 21,
+      "pedido": 10,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 42000,
+      "captura": 43500,
+      "lancamento": 42750,
+      "demonstracao": false
+    },
+    {
+      "id": 22,
+      "pedido": 10,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 42500,
+      "captura": 44000,
+      "lancamento": 43250,
+      "demonstracao": false
+    },
+    {
+      "id": 23,
+      "pedido": 10,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 43000,
+      "captura": 44500,
+      "lancamento": 43750,
+      "demonstracao": false
+    },
+    {
+      "id": 24,
+      "pedido": 11,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 46000,
+      "captura": 47500,
+      "lancamento": 46750,
+      "demonstracao": false
+    },
+    {
+      "id": 25,
+      "pedido": 11,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 46500,
+      "captura": 48000,
+      "lancamento": 47250,
+      "demonstracao": false
+    },
+    {
+      "id": 26,
+      "pedido": 11,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 47000,
+      "captura": 48500,
+      "lancamento": 47750,
+      "demonstracao": false
+    },
+    {
+      "id": 27,
+      "pedido": 12,
+      "quantidade": 1,
+      "tipo": "MIKA",
+      "aviso": 52000,
+      "captura": 53000,
+      "lancamento": 52250,
+      "demonstracao": false
+    },
+    {
+      "id": 28,
+      "pedido": 13,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 56000,
+      "captura": 57000,
+      "lancamento": 56250,
+      "demonstracao": false
+    },
+    {
+      "id": 29,
+      "pedido": 13,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 56250,
+      "captura": 57250,
+      "lancamento": 56500,
+      "demonstracao": false
+    },
+    {
+      "id": 30,
+      "pedido": 13,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 56500,
+      "captura": 57500,
+      "lancamento": 56750,
+      "demonstracao": false
+    },
+    {
+      "id": 31,
+      "pedido": 14,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 60000,
+      "captura": 61000,
+      "lancamento": 60250,
+      "demonstracao": false
+    },
+    {
+      "id": 32,
+      "pedido": 14,
+      "quantidade": 2,
+      "tipo": "RELOGIO",
+      "aviso": 60500,
+      "captura": 61500,
+      "lancamento": 60750,
+      "demonstracao": false
+    },
+    {
+      "id": 33,
+      "pedido": 15,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 64000,
+      "captura": 65000,
+      "lancamento": 64250,
+      "demonstracao": false
+    },
+    {
+      "id": 34,
+      "pedido": 15,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 64250,
+      "captura": 65250,
+      "lancamento": 64500,
+      "demonstracao": false
+    },
+    {
+      "id": 35,
+      "pedido": 15,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 64500,
+      "captura": 65500,
+      "lancamento": 64750,
+      "demonstracao": false
+    },
+    {
+      "id": 36,
+      "pedido": 16,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 67000,
+      "captura": 68000,
+      "lancamento": 67250,
+      "demonstracao": false
+    },
+    {
+      "id": 37,
+      "pedido": 16,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 67250,
+      "captura": 68250,
+      "lancamento": 67500,
+      "demonstracao": false
+    },
+    {
+      "id": 38,
+      "pedido": 16,
+      "quantidade": 3,
+      "tipo": "TIMER",
+      "aviso": 67500,
+      "captura": 68500,
+      "lancamento": 67750,
+      "demonstracao": false
+    },
+    {
+      "id": 39,
+      "pedido": 17,
+      "quantidade": 1,
+      "tipo": "MIKA",
+      "aviso": 71500,
+      "captura": 72500,
+      "lancamento": 71750,
+      "demonstracao": false
+    }
+  ],
+  "feedback": {
+    "captura_cafe": {
+      "duracao_ms": 160,
+      "pico": 0.42622277798524355,
+      "sha256": "c9567ef6b8ce70e58eb83d6b870fa3aa4a7adea5ee3a2af7fd14e2eca2240fa4"
+    },
+    "captura_croissant": {
+      "duracao_ms": 160,
+      "pico": 0.5748942385301736,
+      "sha256": "e4c3d99c8f73a55d01fc9c41dd86ad67d600ca622daffb866ecc8d2d67dc52b0"
+    },
+    "captura_panqueca": {
+      "duracao_ms": 160,
+      "pico": 0.4483901875114099,
+      "sha256": "18bf174b7137022019407efe49cea68585c93e3ddc93b9a91a12ff7d808e10f7"
+    },
+    "captura_cupcake": {
+      "duracao_ms": 160,
+      "pico": 0.47389674832911766,
+      "sha256": "7ffbbfbee9d3330262868be4baae2ebe3d3f3384fa697328712be980182251cf"
+    },
+    "miss_recepcao": {
+      "duracao_ms": 135,
+      "pico": 0.23879344583300688,
+      "sha256": "2239ffeeb7ce0af5bd51d56c77d4a09773cb53bea58494bc06a053de1cc36afb"
+    },
+    "toque_recepcao": {
+      "duracao_ms": 45,
+      "pico": 0.16838205816256302,
+      "sha256": "c37b3f723fac89371edaa64a4ddabc3070a70a86470feeb8d5d3465ba011be7b"
+    },
+    "brilho_perfect": {
+      "duracao_ms": 160,
+      "pico": 0.17168807469800457,
+      "sha256": "a29cb61c01a9068328993cbcb0b2cb02af85af5a8a716e01e6a0e4c2fd5cea95"
+    }
+  }
+}
